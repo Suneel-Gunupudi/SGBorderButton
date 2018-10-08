@@ -22,7 +22,7 @@ pod 'SGBorderButton'
 
 ## Author
 
-Suneel-Gunupudi, suneel.g@pixuate.com
+Suneel-Gunupudi
 
 ## License
 

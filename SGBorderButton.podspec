@@ -18,12 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+  SGBorderButton allows you to create beautiful rounded rect button with dynamic colors and activity indicator, completely in Interface Builder.
                        DESC
 
   s.homepage         = 'https://github.com/Suneel-Gunupudi/SGBorderButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Suneel-Gunupudi' => 'suneel.g@pixuate.com' }
+  s.author           = { 'Suneel-Gunupudi' => '' }
   s.source           = { :git => 'https://github.com/Suneel-Gunupudi/SGBorderButton.git', :tag => s.version.to_s }
  
 
