@@ -1,0 +1,16 @@
+PODS:
+  - SGBorderButton (0.1.0)
+
+DEPENDENCIES:
+  - SGBorderButton (from `../`)
+
+EXTERNAL SOURCES:
+  SGBorderButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SGBorderButton: ef8973f9c3aecdc56db582a00c5a99330895bcb9
+
+PODFILE CHECKSUM: 39cd9bd131908c2d8caa5f6af75ada7d03e08c18
+
+COCOAPODS: 1.5.0

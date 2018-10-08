@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082FD077091A96D540F08719FCAC2C3F /* SGBorderButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A3BEF75EC7CDE8973EF76232443C8C /* SGBorderButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		104A2AEEF034578B3850BD56567C605B /* Pods-SGBorderButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C04238CF1E704812BC27A4E3D8D4F08 /* Pods-SGBorderButton_Tests-dummy.m */; };
+		2C192A39B11278A93081563B61957120 /* SGBorderButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C91D9BFA6A59682470F87772023E9D2E /* SGBorderButton-dummy.m */; };
+		3588394E1D7BE277F75897BF81026B22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		74633759DE2E58C0F18D773FCC675AEE /* Pods-SGBorderButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C02138D9D61F414E35357D0ABFE4F /* Pods-SGBorderButton_Example-dummy.m */; };
+		A1CFD8C77F47FC213B5C2AE37143B261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CDFCBA968EF4FC7407C9007C01DF6D5C /* Pods-SGBorderButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF63C879F55C54DC6CFFD6F0131F304 /* Pods-SGBorderButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAA3AE5AD0B91FB9B67371DBB1AD6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E949F41D1BD9E3016D5B10A997710570 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C592375A319D150B1BD40176637ADFFB /* ReplaceMe.swift */; };
+		F36591C1BA6DBB4FCBAEE0DBB6B8D83F /* Pods-SGBorderButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9226F305D310ADDB0FFE78E4EE0FE1C /* Pods-SGBorderButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D40C81822225B786841636B773B209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA605AA8D3A5330B1F3D52842277F9D3;
+			remoteInfo = SGBorderButton;
+		};
+		DA714325494237ECD0277018D8A2B740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FC9B4E26D1C9E6ABE402B58B3DBBDE;
+			remoteInfo = "Pods-SGBorderButton_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ADC88184F4FC8AE642BFA860EFD4F0 /* SGBorderButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGBorderButton.modulemap; sourceTree = "<group>"; };
+		03A3BEF75EC7CDE8973EF76232443C8C /* SGBorderButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGBorderButton-umbrella.h"; sourceTree = "<group>"; };
+		0C04238CF1E704812BC27A4E3D8D4F08 /* Pods-SGBorderButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGBorderButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		0D84F007664CBB5A3843E1ECF800DBA9 /* Pods_SGBorderButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGBorderButton_Tests.framework; path = "Pods-SGBorderButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8F7DF69E42B9B5148D66149BF5AF8F /* Pods-SGBorderButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGBorderButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2CA2D193880478B9175ED6A8F75E7D93 /* Pods-SGBorderButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGBorderButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AFCDD68CD827D4C9D257FDCDD649D00 /* Pods_SGBorderButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGBorderButton_Example.framework; path = "Pods-SGBorderButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0A1BE2321BEA2F08CE3847B6569408 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476C02138D9D61F414E35357D0ABFE4F /* Pods-SGBorderButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGBorderButton_Example-dummy.m"; sourceTree = "<group>"; };
+		5BD93C4F39F2FFAFC4D9A2997670897E /* Pods-SGBorderButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGBorderButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C13374655BD21C04ABCC34608CD918F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69603C60F0F20C9EE857B5ED331FA5BA /* Pods-SGBorderButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGBorderButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		727A7E63E56531A6E3B444EFA5E370EF /* Pods-SGBorderButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGBorderButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77116F4CDE7A534ABC279CB22EF4B884 /* Pods-SGBorderButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGBorderButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		778CAA675CD193BA24BEE5469056BD0A /* Pods-SGBorderButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGBorderButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		7A52535D77E8EA98149C42667C75F4C6 /* Pods-SGBorderButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGBorderButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8564EFDFF9515FFA384D26BEF5CAF6C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B408E459C31F65460D19B26D2C46892 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D47F9D60C435429CC4EA619BCD28F29 /* SGBorderButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGBorderButton.framework; path = SGBorderButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D95EF496C913432BE487E9F27E1922 /* SGBorderButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGBorderButton-prefix.pch"; sourceTree = "<group>"; };
+		B9226F305D310ADDB0FFE78E4EE0FE1C /* Pods-SGBorderButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGBorderButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BAA38ACCB4C446446F91199CBD6E3F4C /* Pods-SGBorderButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGBorderButton_Tests.modulemap"; sourceTree = "<group>"; };
+		C54BECDE855D5102B1AF30CD2F1FFBF8 /* Pods-SGBorderButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGBorderButton_Example-resources.sh"; sourceTree = "<group>"; };
+		C592375A319D150B1BD40176637ADFFB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SGBorderButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C637497965E6C50FF8927F3A3435D4BF /* SGBorderButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGBorderButton.xcconfig; sourceTree = "<group>"; };
+		C91D9BFA6A59682470F87772023E9D2E /* SGBorderButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGBorderButton-dummy.m"; sourceTree = "<group>"; };
+		CEA04C5501CC2B618CC10BE46DB8BD45 /* Pods-SGBorderButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGBorderButton_Example.modulemap"; sourceTree = "<group>"; };
+		CF6F1566CD05E2363B487213A5BD77EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2515E18CCB2AE21997992BFB6C3EF6 /* SGBorderButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SGBorderButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC7CF65EBDAD4674A2BC6FFB34B60581 /* Pods-SGBorderButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGBorderButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCF63C879F55C54DC6CFFD6F0131F304 /* Pods-SGBorderButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGBorderButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		DFE757B11FAD4EBD94969DD3653A63AE /* Pods-SGBorderButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGBorderButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F69557C7CB3C48D3119BB0105566DBD2 /* Pods-SGBorderButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGBorderButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E6985C1C73944EB53ED85A28A93131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAA3AE5AD0B91FB9B67371DBB1AD6D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1F7F8C51E0C40A17A23DD42C23FD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3588394E1D7BE277F75897BF81026B22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD911EC4EE6D91ECF346ABB940E70470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CFD8C77F47FC213B5C2AE37143B261 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E263999CA6D1D26DFFBE7BF406E890A /* Pods-SGBorderButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E0A1BE2321BEA2F08CE3847B6569408 /* Info.plist */,
+				BAA38ACCB4C446446F91199CBD6E3F4C /* Pods-SGBorderButton_Tests.modulemap */,
+				2CA2D193880478B9175ED6A8F75E7D93 /* Pods-SGBorderButton_Tests-acknowledgements.markdown */,
+				727A7E63E56531A6E3B444EFA5E370EF /* Pods-SGBorderButton_Tests-acknowledgements.plist */,
+				0C04238CF1E704812BC27A4E3D8D4F08 /* Pods-SGBorderButton_Tests-dummy.m */,
+				7A52535D77E8EA98149C42667C75F4C6 /* Pods-SGBorderButton_Tests-frameworks.sh */,
+				778CAA675CD193BA24BEE5469056BD0A /* Pods-SGBorderButton_Tests-resources.sh */,
+				B9226F305D310ADDB0FFE78E4EE0FE1C /* Pods-SGBorderButton_Tests-umbrella.h */,
+				5BD93C4F39F2FFAFC4D9A2997670897E /* Pods-SGBorderButton_Tests.debug.xcconfig */,
+				0F8F7DF69E42B9B5148D66149BF5AF8F /* Pods-SGBorderButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-SGBorderButton_Tests";
+			path = "Target Support Files/Pods-SGBorderButton_Tests";
+			sourceTree = "<group>";
+		};
+		360326454355E208B51848045B9F078D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6779CB560F9CD9AB702D748D61CFF9B /* Pods-SGBorderButton_Example */,
+				1E263999CA6D1D26DFFBE7BF406E890A /* Pods-SGBorderButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4D0E79497964EE269D5900F942BD9ABB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B408E459C31F65460D19B26D2C46892 /* Info.plist */,
+				01ADC88184F4FC8AE642BFA860EFD4F0 /* SGBorderButton.modulemap */,
+				C637497965E6C50FF8927F3A3435D4BF /* SGBorderButton.xcconfig */,
+				C91D9BFA6A59682470F87772023E9D2E /* SGBorderButton-dummy.m */,
+				B6D95EF496C913432BE487E9F27E1922 /* SGBorderButton-prefix.pch */,
+				03A3BEF75EC7CDE8973EF76232443C8C /* SGBorderButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SGBorderButton";
+			sourceTree = "<group>";
+		};
+		60BBEF5381F256D8330F9433E5552971 /* SGBorderButton */ = {
+			isa = PBXGroup;
+			children = (
+				C592375A319D150B1BD40176637ADFFB /* ReplaceMe.swift */,
+				F5A581A4824F384C80EEAD99468A4604 /* Pod */,
+				4D0E79497964EE269D5900F942BD9ABB /* Support Files */,
+			);
+			name = SGBorderButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6EA1D6BC8592E7C0D31FBB842CD434F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCDD68CD827D4C9D257FDCDD649D00 /* Pods_SGBorderButton_Example.framework */,
+				0D84F007664CBB5A3843E1ECF800DBA9 /* Pods_SGBorderButton_Tests.framework */,
+				9D47F9D60C435429CC4EA619BCD28F29 /* SGBorderButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D230CB87CBD946B2635147E649AE7A93 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6EA1D6BC8592E7C0D31FBB842CD434F7 /* Products */,
+				360326454355E208B51848045B9F078D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D230CB87CBD946B2635147E649AE7A93 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BBEF5381F256D8330F9433E5552971 /* SGBorderButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6779CB560F9CD9AB702D748D61CFF9B /* Pods-SGBorderButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF6F1566CD05E2363B487213A5BD77EC /* Info.plist */,
+				CEA04C5501CC2B618CC10BE46DB8BD45 /* Pods-SGBorderButton_Example.modulemap */,
+				DC7CF65EBDAD4674A2BC6FFB34B60581 /* Pods-SGBorderButton_Example-acknowledgements.markdown */,
+				77116F4CDE7A534ABC279CB22EF4B884 /* Pods-SGBorderButton_Example-acknowledgements.plist */,
+				476C02138D9D61F414E35357D0ABFE4F /* Pods-SGBorderButton_Example-dummy.m */,
+				69603C60F0F20C9EE857B5ED331FA5BA /* Pods-SGBorderButton_Example-frameworks.sh */,
+				C54BECDE855D5102B1AF30CD2F1FFBF8 /* Pods-SGBorderButton_Example-resources.sh */,
+				DCF63C879F55C54DC6CFFD6F0131F304 /* Pods-SGBorderButton_Example-umbrella.h */,
+				F69557C7CB3C48D3119BB0105566DBD2 /* Pods-SGBorderButton_Example.debug.xcconfig */,
+				DFE757B11FAD4EBD94969DD3653A63AE /* Pods-SGBorderButton_Example.release.xcconfig */,
+			);
+			name = "Pods-SGBorderButton_Example";
+			path = "Target Support Files/Pods-SGBorderButton_Example";
+			sourceTree = "<group>";
+		};
+		F5A581A4824F384C80EEAD99468A4604 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8564EFDFF9515FFA384D26BEF5CAF6C7 /* LICENSE */,
+				5C13374655BD21C04ABCC34608CD918F /* README.md */,
+				DB2515E18CCB2AE21997992BFB6C3EF6 /* SGBorderButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		090AED4723455738AE8B0B30E468D375 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFCBA968EF4FC7407C9007C01DF6D5C /* Pods-SGBorderButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2634185A729F5F31D8D4F267B5FA73D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36591C1BA6DBB4FCBAEE0DBB6B8D83F /* Pods-SGBorderButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0C9EBB00248933B4517BB11E917208 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082FD077091A96D540F08719FCAC2C3F /* SGBorderButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96FC9B4E26D1C9E6ABE402B58B3DBBDE /* Pods-SGBorderButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347A57F50ECA70325FAA2E159522FBFE /* Build configuration list for PBXNativeTarget "Pods-SGBorderButton_Example" */;
+			buildPhases = (
+				4966D86FABAA3ECA73ACF2B29F296762 /* Sources */,
+				27E6985C1C73944EB53ED85A28A93131 /* Frameworks */,
+				090AED4723455738AE8B0B30E468D375 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				693877238BFACED1645C74DD3EA320BC /* PBXTargetDependency */,
+			);
+			name = "Pods-SGBorderButton_Example";
+			productName = "Pods-SGBorderButton_Example";
+			productReference = 3AFCDD68CD827D4C9D257FDCDD649D00 /* Pods_SGBorderButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7BD7DFD45B3F78D12A6F716A724236D /* Pods-SGBorderButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B012ABF46467CBB7E43CFCD0389F1 /* Build configuration list for PBXNativeTarget "Pods-SGBorderButton_Tests" */;
+			buildPhases = (
+				657CE7A8C38801E38CDB898C249ABC6B /* Sources */,
+				2A1F7F8C51E0C40A17A23DD42C23FD56 /* Frameworks */,
+				2634185A729F5F31D8D4F267B5FA73D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8A4F1D8B9FA98672B92C4ECBB8FC9E /* PBXTargetDependency */,
+			);
+			name = "Pods-SGBorderButton_Tests";
+			productName = "Pods-SGBorderButton_Tests";
+			productReference = 0D84F007664CBB5A3843E1ECF800DBA9 /* Pods_SGBorderButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA605AA8D3A5330B1F3D52842277F9D3 /* SGBorderButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5346AC4C6F8C9E976FA38E5E2B8311F6 /* Build configuration list for PBXNativeTarget "SGBorderButton" */;
+			buildPhases = (
+				470B994B8020039D7631CE0BDA33171B /* Sources */,
+				CD911EC4EE6D91ECF346ABB940E70470 /* Frameworks */,
+				AC0C9EBB00248933B4517BB11E917208 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGBorderButton;
+			productName = SGBorderButton;
+			productReference = 9D47F9D60C435429CC4EA619BCD28F29 /* SGBorderButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6EA1D6BC8592E7C0D31FBB842CD434F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FC9B4E26D1C9E6ABE402B58B3DBBDE /* Pods-SGBorderButton_Example */,
+				D7BD7DFD45B3F78D12A6F716A724236D /* Pods-SGBorderButton_Tests */,
+				FA605AA8D3A5330B1F3D52842277F9D3 /* SGBorderButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		470B994B8020039D7631CE0BDA33171B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E949F41D1BD9E3016D5B10A997710570 /* ReplaceMe.swift in Sources */,
+				2C192A39B11278A93081563B61957120 /* SGBorderButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4966D86FABAA3ECA73ACF2B29F296762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74633759DE2E58C0F18D773FCC675AEE /* Pods-SGBorderButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CE7A8C38801E38CDB898C249ABC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104A2AEEF034578B3850BD56567C605B /* Pods-SGBorderButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		693877238BFACED1645C74DD3EA320BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGBorderButton;
+			target = FA605AA8D3A5330B1F3D52842277F9D3 /* SGBorderButton */;
+			targetProxy = A5D40C81822225B786841636B773B209 /* PBXContainerItemProxy */;
+		};
+		7D8A4F1D8B9FA98672B92C4ECBB8FC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SGBorderButton_Example";
+			target = 96FC9B4E26D1C9E6ABE402B58B3DBBDE /* Pods-SGBorderButton_Example */;
+			targetProxy = DA714325494237ECD0277018D8A2B740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4372C2993EADAE2B0DD84D513F68F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8F7DF69E42B9B5148D66149BF5AF8F /* Pods-SGBorderButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGBorderButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGBorderButton_Tests/Pods-SGBorderButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F46883772A63388D5762FB2BB93DC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C637497965E6C50FF8927F3A3435D4BF /* SGBorderButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGBorderButton/SGBorderButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGBorderButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGBorderButton/SGBorderButton.modulemap";
+				PRODUCT_MODULE_NAME = SGBorderButton;
+				PRODUCT_NAME = SGBorderButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FB28ADB2811B6FE7130445BE6CE5E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD93C4F39F2FFAFC4D9A2997670897E /* Pods-SGBorderButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGBorderButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGBorderButton_Tests/Pods-SGBorderButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DA9283A794AB0460378A4226F48E4650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE757B11FAD4EBD94969DD3653A63AE /* Pods-SGBorderButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGBorderButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGBorderButton_Example/Pods-SGBorderButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E60154A28944C62AD4A689C4F24DEA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69557C7CB3C48D3119BB0105566DBD2 /* Pods-SGBorderButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGBorderButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGBorderButton_Example/Pods-SGBorderButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA270AB9BF34FA6C92647734EBD083C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C637497965E6C50FF8927F3A3435D4BF /* SGBorderButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGBorderButton/SGBorderButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGBorderButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGBorderButton/SGBorderButton.modulemap";
+				PRODUCT_MODULE_NAME = SGBorderButton;
+				PRODUCT_NAME = SGBorderButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347A57F50ECA70325FAA2E159522FBFE /* Build configuration list for PBXNativeTarget "Pods-SGBorderButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60154A28944C62AD4A689C4F24DEA52 /* Debug */,
+				DA9283A794AB0460378A4226F48E4650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5346AC4C6F8C9E976FA38E5E2B8311F6 /* Build configuration list for PBXNativeTarget "SGBorderButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA270AB9BF34FA6C92647734EBD083C7 /* Debug */,
+				6F46883772A63388D5762FB2BB93DC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7B012ABF46467CBB7E43CFCD0389F1 /* Build configuration list for PBXNativeTarget "Pods-SGBorderButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB28ADB2811B6FE7130445BE6CE5E60 /* Debug */,
+				4372C2993EADAE2B0DD84D513F68F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

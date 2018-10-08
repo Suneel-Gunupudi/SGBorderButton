@@ -1,0 +1,22 @@
+{
+  "name": "SGBorderButton",
+  "version": "0.1.0",
+  "summary": "A short description of SGBorderButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Suneel-Gunupudi/SGBorderButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Suneel-Gunupudi": "suneel.g@pixuate.com"
+  },
+  "source": {
+    "git": "https://github.com/Suneel-Gunupudi/SGBorderButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SGBorderButton/Classes/**/*"
+}
