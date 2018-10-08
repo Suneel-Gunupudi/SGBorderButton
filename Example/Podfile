@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SGBorderButton_Example' do
+  pod 'SGBorderButton', :path => '../'
+
+  target 'SGBorderButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
